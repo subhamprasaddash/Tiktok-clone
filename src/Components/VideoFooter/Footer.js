@@ -9,7 +9,7 @@ function Footer({ account, description, song }) {
       <div className="text">
         <h2> @{account}</h2>
         <p>{description}</p>
-        <MusicNoteIcon fontSize="large" className="music-logo" />
+        <MusicNoteIcon className="music-logo" />
         <div className="ticker">
           <Ticker mode="smooth">
             {({ index }) => (
