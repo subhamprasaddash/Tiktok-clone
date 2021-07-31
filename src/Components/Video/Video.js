@@ -21,6 +21,7 @@ function Video({ videoUrl, likes, comments, account, song, description }) {
     <div className="video">
       <div className="component">
         <video
+          /* IMPORTANT */
           // if the video donot loads from the url
           //Import a local video to src\Components\Video.
           // and replace src ={videoUrl} with the local video.
