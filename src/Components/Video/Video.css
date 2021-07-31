@@ -1,0 +1,36 @@
+.video {
+  border: 1px solid white;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  scroll-snap-align: start;
+  position: relative;
+}
+.video-card {
+  border-radius: 20px;
+  object-fit: fill;
+  width: 100%;
+  max-width: 500px;
+  height: 100vh;
+}
+
+/* 
+.video {
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+}
+
+.video-card {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+.component {
+  width: 100%;
+  height: 100%;
+}
+ */

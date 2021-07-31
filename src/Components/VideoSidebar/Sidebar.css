@@ -1,0 +1,22 @@
+.sidebar {
+  position: relative;
+  bottom: 410px;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+.like-icon {
+  position: absolute;
+}
+
+.comment-icon {
+  position: absolute;
+  margin-top: 90px;
+}
+
+.share-icon {
+  position: absolute;
+  margin-top: 180px;
+}
